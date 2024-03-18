@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="784f818b-278e-4826-be8c-c624b4d7ee7a" name="FTP" url="http://yousobest.dothome.co.kr">
+      <webServer id="784f818b-278e-4826-be8c-c624b4d7ee7a" name="FTP" url="">
         <fileTransfer host="yousobest.dothome.co.kr" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
