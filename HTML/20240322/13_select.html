@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form name="frmPost" action="action.php" method="post">
+        <select name="part">
+            <option value="H">HTML</option>
+            <option value="C">CSS</option>
+            <option value="" selected>JAVASCRIPT</option>
+        </select>
+
+        <!-- select multiple로 입력하면 키보드의 crtl 키를 누른 상태에서 여러 개 선택 가능 -->
+        <select multiple name="part2[]">
+            <option value="H">HTML</option>
+            <option value="C">CSS</option>
+            <option value="" selected>JAVASCRIPT</option>
+            <option value="H">HTML</option>
+            <option value="C">CSS</option>
+            <option value="" selected>JAVASCRIPT</option>
+        </select>
+
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
