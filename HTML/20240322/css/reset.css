@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* 링크속성 밑줄 없앰 */
+}
+
+li {
+    list-style: none; /* 항목 태그 블릿 아이콘 장식 없앰 */
+}
+
+img {
+    display: block; /* inline속성을 지니고 있는 img 태그의 오자 간격을 없애기 위함 */
+    border: none;
+}
+
+body {
+    font-family: 'Verdana';
+    font-size: 14px;
+    color: black;
+    line-height: 28px;
+}
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CheckBox</title>
+    <style>
+        input[type=checkbox]:checked + div {
+            height: 0;
+
+        }
+        span{
+            display: none;
+        }
+        input[type=checkbox]:checked ~ span {
+            display: inline;
+        }
+        div {
+            overflow: hidden; /* 박스의 높이만큼만 보이도록 함 */
+            width: 650px;
+            height: 300px;
+            background: yellow;
+        }
+        /* 초기 화면에서는 "약관에 동의하셨습니다."가 나오지 않고 체크박스 클릭시에 나오도록 수정 할 것 */
+    </style>
+</head>
+<body>
+    <input type="checkbox"/>동의</label>
+    <div>
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+            Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
+        </p>
+    </div>
+    <span>약관에 동의하셨습니다.</span>
+</body>
+</html>
