@@ -5,9 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/HTML/20240322/12_textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240322/13_select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240322/14_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/01_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/02_th.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/03_table_merge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/04_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/05_tbody.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/06_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/07_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/08_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/09_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/10_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/11_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/12_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/13_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/14_relative.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/15_static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/16_relative2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/17_absolute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/18_pixed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/19_z-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/20_player.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/21_webfont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/22_notosans.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/23_paractice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240325/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/01_javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/02_javaScript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/03_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/04_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/05_입출력.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/06_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/07_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/08_ex01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/09_datatype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/10_문자열 연산.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/11_템플릿 문자열.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/12_숫자.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/js/change-result.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -36,42 +71,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.05.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.06.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.05.html.executor": "Run",
+    "JavaScript Debug.06.html.executor": "Run",
+    "JavaScript Debug.07_js.html.executor": "Run",
+    "JavaScript Debug.08_table.html.executor": "Run",
+    "JavaScript Debug.11_템플릿 문자열.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/HTML/20240325",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
       <recent name="C:\Users\Jeongmo7\WebstormProjects\KoreaIT\HTML\20230318" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.06.html">
+  <component name="RunManager" selected="JavaScript Debug.11_템플릿 문자열.html">
     <configuration name="05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/HTML/20230318/05.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="06.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/HTML/20230318/06.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="07_js.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240325/07_js.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="08_table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/HTML/20240325/08_table.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="11_템플릿 문자열.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240325/11_템플릿 문자열.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.11_템플릿 문자열.html" />
+        <item itemvalue="JavaScript Debug.07_js.html" />
+        <item itemvalue="JavaScript Debug.08_table.html" />
         <item itemvalue="JavaScript Debug.06.html" />
         <item itemvalue="JavaScript Debug.05.html" />
       </list>
@@ -92,7 +146,8 @@
       <workItem from="1711085121934" duration="439000" />
       <workItem from="1711086036279" duration="5695000" />
       <workItem from="1711092758215" duration="77000" />
-      <workItem from="1711092967170" duration="983000" />
+      <workItem from="1711092967170" duration="1217000" />
+      <workItem from="1711324905527" duration="23511000" />
     </task>
     <servers />
   </component>
