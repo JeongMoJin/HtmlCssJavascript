@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const obj1 ={
+            name: '길동',
+            age: 24
+        }
+        console.log(obj1)
+
+        // 속성값 변경
+        obj1.name = 'tom';
+        console.log(obj1)
+
+        // 속성 추가
+        obj1.address = 'daegu'
+        console.log(obj1)
+
+        // address : 'daegu', age:24, name:'tom'
+        // const로 정의해도 객체 내용은 자유롭게 변경할 수 있음
+        // 즉, 객체를 정의할 때는 기본적으로 const를 이용
+
+        // 재할당은 에러가 남
+        // obj1 = {
+        //     name: '길동',
+        //     age: 24
+        // }
+
+        // const를 이용해 정의한 배열 값을 변경, 추가 하는 예
+        // 배열 정의
+        const arr1 = ['dog', 'cat']
+        console.log(arr1);
+
+        // 값 변경
+        arr1[0] = 'bird'
+        console.log(arr1)
+
+        // 값 추가
+        arr1.push('monkey')
+        console.log(arr1)
+        // 배열도 const를 이용해 정의했어도 값은 자유롭게 변경할 수 있음
+        // 따라서 배열 역시 기본적으로 const를 이용해 정의
+    </script>
+</head>
+<body>
+
+</body>
+</html>

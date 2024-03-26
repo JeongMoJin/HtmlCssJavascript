@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body > div {
+            border: 2px solid red;
+            margin-bottom: 20px;
+        }
+
+        body > div > div {
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- float, inline-block, flex 사용해서 요소를 수평으로 정렬하기 -->
+<h2>요소를 수평으로 정렬하기</h2>
+
+<h4>float 사용</h4>
+<style>
+    .div_one {
+        height: 104px;
+    }
+.one {
+float: left;
+}
+</style>
+<div class="div_one">
+    <div class="one">1</div>
+    <div class="one">2</div>
+    <div class="one">3</div>
+</div>
+
+<h4>inline-block 사용</h4>
+<style>
+.two {
+    display: inline-block;
+}
+</style>
+<div>
+    <div class="two">1</div>
+    <div class="two">2</div>
+    <div class="two">3</div>
+</div>
+
+<h4>flex 사용</h4>
+<style>
+.div_three {
+    display: flex;
+}
+</style>
+<div class="div_three">
+    <div class="three">1</div>
+    <div class="three">2</div>
+    <div class="three">3</div>
+</div>
+</body>
+</html>

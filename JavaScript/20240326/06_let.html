@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let val2 = 'let 변수'
+        console.log(val2)
+
+        val2 = 'let 변수 덮어 쓰기'
+        console.log(val2)
+
+        // 재선언 실행
+        let val3 = 'let 변수'
+        console.log(val3)
+
+        // let은 재선언 불가능
+        let val3 = 'let 변수 재선언' // 에러
+        // 06_let.html:18 Uncaught SyntaxError: Identifier 'val3' has already been declared
+        // 이미 선언되어 재선언 할 수 없다는 메시지
+
+        // 이렇게 let은 var를 이용했을 때 문제가 되었던 재선언을 개선한 변수 정의 방법
+        // 덮어 쓰기를 허가하지 않을 변수는 let을 이용해야 함
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -5,43 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/01_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/02_th.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/03_table_merge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/04_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/05_tbody.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/06_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/07_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/08_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/09_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/10_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/11_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/12_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/13_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/14_relative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/15_static.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/16_relative2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/17_absolute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/18_pixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/19_z-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/20_player.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/21_webfont.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/22_notosans.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/23_paractice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/20240325/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/01_javascript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/02_javaScript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/03_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/04_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/05_입출력.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/06_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/07_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/08_ex01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/09_datatype.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/10_문자열 연산.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/11_템플릿 문자열.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/12_숫자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240325/js/change-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/01_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/02_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/03_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/04_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/05_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/06_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/07_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/08_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/09_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/10_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/11_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/12_flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/13_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/banner_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/banner_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/banner_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/banner_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/banner_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/box_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/chicken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/collection-freedom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/header01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/menu01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/menu02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/menu03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/menu04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/menu05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/side01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/20240326/img/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/01_boolean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/02_typeof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/03_undefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/04_variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/05_joongyo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/06_let.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/07_const.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/08_const2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/09_형변환.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/10_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240326/11_자료형변환.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +90,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/HTML/20240325",
+    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/HTML/20240326",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,6 +102,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240326" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -147,7 +152,10 @@
       <workItem from="1711086036279" duration="5695000" />
       <workItem from="1711092758215" duration="77000" />
       <workItem from="1711092967170" duration="1217000" />
-      <workItem from="1711324905527" duration="23511000" />
+      <workItem from="1711324905527" duration="23568000" />
+      <workItem from="1711411440604" duration="2102000" />
+      <workItem from="1711413581927" duration="7424000" />
+      <workItem from="1711422310851" duration="12187000" />
     </task>
     <servers />
   </component>
