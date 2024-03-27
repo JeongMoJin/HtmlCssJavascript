@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+        .aqua {
+            color: #0080ff;
+        }
+        p {
+            font-size: 25px;
+        }
+
+    </style>
+    <script>
+        /*
+        1부터 100까지 1) 5의 배수이고 7의 배수가 아닌 경우 2) 7의 배수이고 5의 배수가 아닌 경우
+        3) 7과 5의 배수인 경우를 각각 다른 색으로 출력
+         */
+        // for (let i = 1; i<= 100; i++) {
+        //     if (i%5 === 0 && i % 7 !== 0) {
+        //         document.write("<p class='red'>" + i + "</p>")
+        //     } else if (i % 7 === 0 && i % 5 !== 0) {
+        //         document.write("<p class='green'>" + i +"</p>")
+        //     } else if (i % 7 === 0 && i % 5 ===0) {
+        //         document.write("<p class='aqua'>"+i+"</p>");
+        //     }
+        // }
+
+        for (let i = 20; i >= 10; i--) {
+            if (i%2 == 0) {
+                document.write("<p class='aqua'>" + i + "</p>")
+            } else if (i%2 == 1) {
+                document.write("<p class='red'>" + i + "</p>")
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

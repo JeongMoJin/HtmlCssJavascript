@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>산술연산자</title>
+    <script>
+        // %
+        const evenOdd = 2; // 변수값을 변경해서 테스트 해보기 바랍니다.
+        const result = evenOdd % 2;
+
+        // const는 선언과 동시에 초기화
+        let comment = 0;
+        if (result === 0) {
+            comment = evenOdd + '는(은) "짝수" 입니다.';
+        } else {
+            comment = evenOdd + '는(은) "홀수" 입니다.';
+        }
+        console.log(comment);
+
+        // 삼항연산자를 사용하면 선언과 동시에 초기화 가능
+        const comment2 = (result == 0) ? evenOdd + '는(은) "짝수" 입니다.' : evenOdd + '는(은) "홀수" 입니다.';
+        console.log()
+    </script>
+</head>
+<body>
+
+</body>
+</html>

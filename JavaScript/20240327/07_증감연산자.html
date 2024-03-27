@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>증감연산자</title>
+    <script>
+        let num1 = 10;
+        num1++; // -> num1 += 1 -> num1 = num1 + 1;
+        document.write(num1); // 11
+        document.write('<br><br>');
+
+        //후위 : 해당 문장을 실행한 후 값을 더함
+        let num2 = 10;
+        document.write(num2++); // document.write(num2); num2++ // 10
+        document.write('<br>');
+        document.write(num2++); // 11
+        document.write('<br>');
+        document.write(num2++); // 12
+        document.write('<br>');
+        document.write(num2++); // 13
+        document.write('<br><br>');
+
+        // 전위 : 값을 더한 후에 해당 문장을 실행
+        let num3 = 10;
+        document.write(++num3) // 11
+        document.write('<br>')
+        document.write(++num3) // 12
+        document.write('<br>')
+        document.write(++num3) // 13
+        document.write('<br>')
+        document.write(++num3) // 14
+        document.write('<br>')
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

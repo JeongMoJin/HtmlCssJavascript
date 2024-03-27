@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #contents {
+            width: 450px;
+            margin: 0 auto;
+        }
+
+
+
+        ul {
+            list-style: none;
+            padding-top: 40px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li > label {
+            width: 80px;
+            float: left;
+            text-align: right;
+        }
+
+        input[type="text"] {
+            width: 110px;
+            padding: 5px 10px;
+            margin: 0 5px 0 10px;
+        }
+
+        li:nth-child(3) {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        #showResult {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+
+</style>
+</head>
+<body>
+    <div id="contents">
+        <ul>
+            <li>
+                <p>달러 단위의 금액을 입력해주세요.</p>
+                <label for="moeny">입력 : </label>
+                <input type="text" id="moeny">
+                <button onclick="showPrice()">달러 계산하기</button>
+            </li>
+        </ul>
+        <div id="showResult"></div>
+    </div>
+<script>
+    function showPrice() {
+        let dal = document.querySelector('#moeny').value; // 달러 입력값
+        let won = Number(dal) * 1346; // 환율 곱한 원화
+
+        document.querySelector("#showResult").innerHTML =
+            `달러 : ${dal} <br> -> 원화 : ${won}`
+    }
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        if (273 < 100) { // 표현식 273 < 100이 참일 때 실행
+            alert('273 < 100 => true');
+        }
+
+        let str = '';
+        if(!str) { // 조건문 안에서 자동으로 형변환
+            alert('빈 문자열 입니다.');
+        }
+
+        str = ' '; // 공백 한 글자. 공백도 글자로 취급.
+        if (!str.trim()) { // 조건문 안에서 자동으로 형변환
+            alert('빈 문자열입니다.')
+        }
+
+        str = '값입력';
+        if(str) { // 조건문 안에서 자동으로 형변환
+            alert('빈 문자열이 아닙니다.');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
