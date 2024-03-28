@@ -5,33 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/01_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/02_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/03_산술연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/04_산술연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/05_복합대입연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/06_복합대입연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/07_증감연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/08_증감연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/09_증감연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/10_비교연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/11_논리연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/12_삼항연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/13_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/14_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/15_paractice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/16_조건문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/17_조건문2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/18_조건문3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/19_조건문4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/20_조건문5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/21_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/22_반복문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/23_배열.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/24_forof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/25_for반복문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/26_for과 배열.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240327/27_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/01_while반복문.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/02_while배열.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/03_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/04_break,continue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/05_continue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/06_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/07_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/08_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/09_splice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/10_splice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/11_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/12_funcion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/13_선언적함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/14_함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/15_함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/16_함수_변수_할당_2가지.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/17_매개변수와 리턴값.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/18_함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/19_매개변수가_있는_함수_정의문.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/20_return문.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/21_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/21_image2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/22_사용자정의함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/23_사용자정의함수2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/24_사용자정의함수3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/25_사용자정의함수4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/HTML/20240327",
+    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240328",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,12 +87,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240327" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240326" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
       <recent name="C:\Users\Jeongmo7\WebstormProjects\KoreaIT\HTML\20230318" />
@@ -147,7 +148,9 @@
       <workItem from="1711422310851" duration="12206000" />
       <workItem from="1711439422183" duration="3000" />
       <workItem from="1711439431766" duration="30000" />
-      <workItem from="1711498342745" duration="22830000" />
+      <workItem from="1711498342745" duration="23031000" />
+      <workItem from="1711529054973" duration="598000" />
+      <workItem from="1711585805579" duration="20396000" />
     </task>
     <servers />
   </component>

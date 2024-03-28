@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const fruits = ['사과', '배', '바나나']
+        const index = fruits.indexOf('바나나'); // 바나나를 값으로 가지는 인덱스 구함
+        console.log(index); // 2
+
+        fruits.splice(index, 1);
+        console.log(fruits); // (2) ['사과', '배']
+
+        console.log(fruits.indexOf('바나나')); // 배열에 없는 경우 -1을 출력
+        if (fruits.indexOf('바나나') >= 0) {
+            fruits.splice()
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

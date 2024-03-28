@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const todos = ['우유구매', '업무 매일 확인하기', '필라테스 수업']
+        console.log(todos); // (3) ['우유구매', '업무 매일 확인하기', '필라테스 수업']
+
+        todos.push('저녁 식사 준비하기');
+        todos.push('피아노 연습하기');
+
+        // 배열의 뒷부분에 요소 2개가 추가됨
+        console.log(todos); // (5)
+
+        // 배열은 참조변수라서 cosnt 라도 값 변경이 가능
+        const frutsA = ['사과', '배', '바나나']
+        frutsA.push('망고')
+        console.log(frutsA)
+
+        // 재할당은 불가능
+        // frutsA = ['우유구매', '업무 메일 확인하기', '필라테스 수업'];
+        // Uncaught TypeError: Assignment to constant variable.
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

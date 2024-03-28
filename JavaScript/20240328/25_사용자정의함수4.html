@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let i = 0;
+        const changeColor = function () {
+            const color = ['white', 'yellow', 'aqua', 'purple']; // 배열 선언
+
+            const bodyTag = document.querySelector('body'); // body 태그를 불러옴
+            bodyTag.style.backgroundColor = color[++i]; // body 태그의 backgroud-color를 변경
+        }
+    </script>
+</head>
+<body>
+    <!-- 버튼을 클릭하면 changeColor() 함수 호출 -->
+    <button onclick="changeColor();">배경색 바꾸기</button>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        커피 1잔을 300원에 판매하는 커피자판기가 있습니다.
+        이 커피자판기에 돈을 넣으면 자판기에서 뽑을 수 있는 커피가 몇 잔이며 잔돈은 얼마인지를 함께 출력하는 프로그램을 구현하세요.
+
+         실행 예)
+        자판기에 얼마를 넣을까요? >>> 1400
+        커피 1잔, 잔돈 1100원
+        커피 2잔, 잔돈 800원
+        커피 3잔, 잔돈 500원
+        커피 4잔, 잔돈 200원
+         */
+        console.log("-------for문 활용-------")
+        var money = prompt("자판기에 얼마를 넣을까요? >>"); // 입력한 돈. 나중에 prompt('자판기에 얼마를 넣을까요? >>>')로 변경
+        var priceCoffee = 300; // 커피 한잔의 가격
+
+        if (priceCoffee>=300) {
+            for (i=1; 0 <= money - priceCoffee*i; i++) {
+                console.log(`커피 ${i}잔, 잔돈 ${money - priceCoffee*i}원`)
+            }
+        } else {
+            console.log('금액이 부족합니다.')
+        }
+
+        console.log("-------while문 활용-------")
+        var i = 1;
+        if (priceCoffee>=300) {
+            while (0 <= money - priceCoffee*i) {
+                console.log(`커피 ${i}잔, 잔돈 ${money - priceCoffee*i}원`)
+                i++;
+            }
+        } else {
+            console.log('금액이 부족합니다.')
+        }
+
+        /*
+        금액으로 구매할 수 있는 최대 잔수를 구한 후, for문의 조건에 이용.
+         */
+        console.log('금액으로 구매할 수 있는 최대 잔수를 구한 후, for문의 조건에 이용.')
+        // var money = promt('자판기에 얼마를 넣을까요? >>>')
+        var priceCoffee = 300;
+        const maxCups = parseInt(money / priceCoffee); // 금액으로 구매할 수 있는 최대 잔수
+        console.log(maxCups)
+
+        for (i=0; i <= maxCups; i++) {
+            console.log(`커피 ${i}잔, 잔돈 ${money - priceCoffee*i}원`)
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

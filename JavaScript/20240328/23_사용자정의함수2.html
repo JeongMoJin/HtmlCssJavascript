@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        'use strict'
+        /*
+        * 기본적인 사용자 정의 함수 예제 : a부터 b까지 더하는 함수
+         */
+        const sumAll = function (a, b) {
+            let sum = 0
+            for (a; a <=b; a++) {
+                sum = sum + a;
+            }
+            return sum;
+        }
+
+        console.log(`1부터 100까지의 합: ${sumAll(1,100)}`); // 5050
+        console.log(`1부터 500까지의 합: ${sumAll(1,500)}`); // 125250
+    </script>
+</head>
+<body>
+
+</body>
+</html>

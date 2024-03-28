@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const getAvg = function (arrData) {
+            // 배열로된 과목을 받아서 점수를 입력 받고 평균을 반환
+            let sum = 0;
+            for(let i = 0; i < arrData.length; i++) {
+                sum += Number(prompt(`${arrData[i]} 점수는?`, '0'));
+            }
+            const avg = sum / arrData.length; // 평균을 계산
+            return avg;
+            alert(avg); // return 이후의 코드라서 실행이 안됨. (Unreachable code)
+        }
+        const arrSubject = ['국어', '수학', '영어'];
+        const result = getAvg(arrSubject);
+
+        document.write(`평균 점수는 ${parseInt(result)}점 입니다.`)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
