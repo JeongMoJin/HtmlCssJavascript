@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            font-size: 300px;
+        }
+    </style>
+    <script>
+        // 1초씩 올라가는 색깔 변하는 카운트
+
+        const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+        let count = 1;
+        setInterval(function () {
+            document.querySelector('div').innerHTML = String(count);
+            document.querySelector('div').style.color = rainbow[count % rainbow.length]
+            count++;
+        }, 1* 1000);
+    </script>
+</head>
+<body>
+    <div>0</div>
+</body>
+</html>

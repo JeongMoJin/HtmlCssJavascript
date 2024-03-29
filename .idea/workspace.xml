@@ -5,32 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/01_while반복문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/02_while배열.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/03_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/04_break,continue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/05_continue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/06_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/07_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/08_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/09_splice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/10_splice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/11_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/12_funcion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/13_선언적함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/14_함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/15_함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/16_함수_변수_할당_2가지.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/17_매개변수와 리턴값.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/18_함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/19_매개변수가_있는_함수_정의문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/20_return문.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/21_image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/21_image2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/22_사용자정의함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/23_사용자정의함수2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/24_사용자정의함수3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240328/25_사용자정의함수4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/01_rest_parameter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/02_rest_parameter_min.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/03_rest_parameter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/04_script.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/05_전개연산자.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/06_재귀함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/07_콜백함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/08_콜백함수2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/09_콜백함수3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/10_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/11_filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/12_화살표함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/13_화살표함수2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/14_timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/15_timer2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/16_timer3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/16_timer5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/17_timer6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +60,7 @@
     "JavaScript Debug.07_js.html.executor": "Run",
     "JavaScript Debug.08_table.html.executor": "Run",
     "JavaScript Debug.11_템플릿 문자열.html.executor": "Run",
+    "JavaScript Debug.15_timer2.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
@@ -75,7 +68,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240328",
+    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240329",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240329" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240327" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240326" />
-      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
@@ -100,10 +93,7 @@
       <recent name="C:\Users\Jeongmo7\WebstormProjects\KoreaIT\HTML\20230318" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.11_템플릿 문자열.html">
-    <configuration name="05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/HTML/20230318/05.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.15_timer2.html">
     <configuration name="06.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/HTML/20230318/06.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -116,13 +106,16 @@
     <configuration name="11_템플릿 문자열.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240325/11_템플릿 문자열.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="15_timer2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240329/15_timer2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.15_timer2.html" />
         <item itemvalue="JavaScript Debug.11_템플릿 문자열.html" />
         <item itemvalue="JavaScript Debug.07_js.html" />
         <item itemvalue="JavaScript Debug.08_table.html" />
         <item itemvalue="JavaScript Debug.06.html" />
-        <item itemvalue="JavaScript Debug.05.html" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +143,9 @@
       <workItem from="1711439431766" duration="30000" />
       <workItem from="1711498342745" duration="23031000" />
       <workItem from="1711529054973" duration="598000" />
-      <workItem from="1711585805579" duration="20396000" />
+      <workItem from="1711585805579" duration="20526000" />
+      <workItem from="1711614873182" duration="29000" />
+      <workItem from="1711670869575" duration="18042000" />
     </task>
     <servers />
   </component>

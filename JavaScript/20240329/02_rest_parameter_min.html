@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        나머지 매개변수를 사용하는 min 함수
+         */
+        const min = function (...array) {
+            let min = array[0];
+            for (let i =1; i < array.length; i++) { // 0번 인덱스를 초기화에 사용했으니 1번 인덱스부터 사용
+                if (min > array[i]) { // 현재 min 보다 더 작다면
+                    min = array[i]; // min 값을 변경
+                }
+            }
+            return min;
+        }
+
+        console.log(`[52, 273, 32, 103, 275, 24, 57]중에서`)
+        console.log(`최솟값 = ${min(52, 273, 32, 103, 275, 24, 57)}`);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

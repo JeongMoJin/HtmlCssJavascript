@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        기본형:
+        function (value, index, array) { }
+         */
+
+
+        const numbers = [273, 52, 103, 32, 57]
+
+        number.forEach(function (value, index, array) {
+            // 매개변수로 value, index, array를 갖는 콜백함수를 사용
+            console.log(`${index}번째 요소 : ${value}`)
+        });
+
+        // 함수 선언한 후에 매개 변수로 넘겨도 됨
+        const call = function (value, index, array) {
+            // 매개변수로 value, index, array를 갖는 콜백함수를 사용
+            console.log(`${index}번째 요소 : ${value}`)
+        }
+        numbers.forEach(call);
+
+        number.forEach(function (v, i) { // 매개변수로 v, i만 사용
+            console.log(`${i}번째 요소 : ${v}`)
+        });
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
