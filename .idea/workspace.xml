@@ -5,24 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/01_rest_parameter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/02_rest_parameter_min.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/03_rest_parameter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/04_script.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/05_전개연산자.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/06_재귀함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/07_콜백함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/08_콜백함수2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/09_콜백함수3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/10_map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/11_filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/12_화살표함수.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/13_화살표함수2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/14_timer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/15_timer2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/16_timer3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/16_timer5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240329/17_timer6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +50,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240329",
+    "last_opened_file_path": "C:/Users/Jeongmo7/WebstormProjects/KoreaIT/web-team-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -145,7 +127,7 @@
       <workItem from="1711529054973" duration="598000" />
       <workItem from="1711585805579" duration="20526000" />
       <workItem from="1711614873182" duration="29000" />
-      <workItem from="1711670869575" duration="18042000" />
+      <workItem from="1711670869575" duration="19251000" />
     </task>
     <servers />
   </component>
