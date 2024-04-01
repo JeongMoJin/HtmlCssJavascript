@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/01_JS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/02_이름충돌.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/03_스코프.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/04_즉시실행함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/05_엄격모드.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/06_내부함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/07_버튼+함수.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240401/09_이벤트핸들러.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
