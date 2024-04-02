@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        * 스타일 조작하기
+        *
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+            const divs = document.querySelectorAll('body > div');
+
+            divs.forEach((div, index) => { // div개수 만큼 반복 출력
+                console.log(div, index);
+                const val = index * 10; // index는 0부터 24까지 반복
+                div.style.height = `10px`; //  크기를 지정할 때는 반드시 단위를 붙여줘야 함
+                div.style.backgroundColor = `rgba(${val},${val},${val})`;
+            })
+        });
+    </script>
+</head>
+<body>
+    <!-- div 태그 25개 -->
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+    <div></div><div></div><div></div><div></div><div></div>
+</body>
+</html>

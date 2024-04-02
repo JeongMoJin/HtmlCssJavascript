@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let rainbow = ['red', 'orange', 'yellow', 'green', 'blue','indigo','violet']
+            const btn = document.querySelector('button');
+            const ulTag = document.querySelector('ul')
+            let cnt = 0;
+
+            btn.addEventListener('click', function () {
+                const liTag = document.createElement('li');
+
+                liTag.setAttribute('class', rainbow[cnt % rainbow.length]);
+
+                liTag.textContent = rainbow[cnt % rainbow.length];
+                liTag.style.backgroundColor = rainbow[cnt++ % rainbow.length]
+                liTag.style.color = 'white';
+
+                if (cnt > rainbow.length) {
+                    const firstLi = document.querySelector('ul li:nth-child(1)')
+                    firstLi.parentNode.removeChild(firstLi)
+                }
+                ulTag.appendChild(liTag)
+            })
+        })
+    </script>
+</head>
+<body>
+<button>무지개색 추가</button>
+<ul>
+
+</ul>
+</body>
+</html>

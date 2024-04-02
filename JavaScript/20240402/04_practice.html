@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button>배경색 변경</button>
+    <button>배경색 초기화</button>
+</body>
+<script>
+    // 1. 요소 지정
+    const colorChange = document.querySelector('button:nth-child(1)')
+    const colorOne = document.querySelector('button:nth-child(2)')
+    let color = ['white','red', 'orange', 'yellow', 'blue']
+
+    // 2. 클릭 버튼 이벤트 등록
+    let i = 1;
+    const bodyTag = document.querySelector('body'); // body 태그를 불러옴
+
+    function colorChan() {
+        ++i;
+        bodyTag.style.backgroundColor = color[i%color.length]; // body 태그의 backgroud-color를 변경
+
+    }
+    colorChange.addEventListener('click', colorChan)
+
+    // 3. 색상 초기화 버튼 이벤트 등록
+
+    function colorOneFun() {
+        i = 1;
+        bodyTag.style.backgroundColor = color[0];
+    }
+    colorOne.addEventListener('click', colorOneFun)
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="plus">클릭</button>
+    <button id="remover">제거</button>
+    <button>Register!</button>
+    <script>
+        // 1. querySelector()로 요소 선택
+        const plus = document.getElementById('plus')
+        const remover = document.getElementById('remover')
+        const btnRegister = document.querySelector('button:nth-child(3)');
+
+        // 2. 클릭 버튼 이벤트 등록
+        let count = 0;
+        function handleClick() {
+            ++count;
+            alert(`${count}번 클릭했습니다.`)
+        }
+        plus.addEventListener('click',handleClick)
+
+        // 3. 제거 버튼 이벤트 등록
+        function handleRemove() {
+            plus.removeEventListener('click', handleClick)
+        }
+        remover.addEventListener('click', handleRemove)
+
+        // 4. 재등록 버튼 이벤트 등록
+        btnRegister.addEventListener('click', () => {
+            plus.addEventListener('click', handleClick)
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
