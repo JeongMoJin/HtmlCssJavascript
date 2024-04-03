@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const h1 = document.querySelector('h1');
+      const conBtn = document.querySelector('#connect');
+      const disConBtn = document.querySelector('#disconnect');
+      const p = document.querySelector('p')
+      let count = 0;
+      let isConnect = false; // 이벤트를 여러 번 연결되지 않게
+
+      const listener = (event) => { // 이벤트를 제거하려면 이벤트 리스너를 변수 또는 상수로 가지고 있어야 함
+        h1.textContent = `클릭 횟수 : ${count++}`; // h1 태그 안에 클릭마다 텍스트 변경
+      }
+
+      conBtn.addEventListener('click', function() { // 이벤트 연결하는 이벤트 리스너
+        if (isConnect === false) {
+          h1.addEventListener('click', listener); // h1 클릭 시 listener 함수 발생
+          p.textContent = `이벤트 연결 상태: 연결` // p의 텍스트를 변환
+          conBtn.style.display = 'none' // 이벤트 연결 버튼 숨김
+          disConBtn.style.display = '' // 해제 버튼 디스플레이 기본 값
+          isConnect = true;
+        }
+      })
+      disConBtn.addEventListener('click', function (){
+        if (isConnect === true) {
+          h1.removeEventListener('click', listener); // h1의 listener 함수 제거
+          p.textContent = `이벤트 연결 상태: 해제` // p의 텍스를 변환
+          conBtn.style.display = '' // 연결 버튼 디스플레이 기본값
+          disConBtn.style.display = 'none' // 해제 버튼 디스플레이 none 값
+          isConnect = false;
+        }
+      })
+    })
+  </script>
+  <style>
+    h1 {
+      /* 클릭 여러 번 할때, 글자가 선택되는 것을 막기 위한 스타일. 드래그 안됨 */
+      user-select: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>클릭 횟수 : 0</h1>
+  <button id="connect">이벤트 연결</button>
+  <button id="disconnect">이벤트 제거</button>
+  <p>이벤트 연결 상태: 해제</p>
+</body>
+</html>

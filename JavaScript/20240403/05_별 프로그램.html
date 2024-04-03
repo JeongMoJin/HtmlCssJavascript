@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        * keyCode 속성 활용
+        * keyCode 속성은 입력한 키를 숫자로 나타냄. 37 38 39 40이 방향키 왼쪽, 위, 오른쪽, 아래를 나타냄
+         */
+         document.addEventListener('DOMContentLoaded', () => {
+             // 별의 초기 설정
+             const star = document.querySelector('h1')
+             star.style.position = 'absolute'; // style 속성을 조작하여 position 값을 설정
+             star.style.transitionDuration = '2s';
+
+             // 별의 이동을 출력하는 기능
+             let [x,y] = [5,5];
+             const block = 20;
+             const print = () => {
+                 star.style.left = `${x * block}px`;
+                 star.style.top = `${y * block}px`;
+             }
+             print();
+
+             // 별을 이동하는 기능
+             const [left, up, right, down] = [37, 38, 39, 40] // 방향키 keyCode를 쉽게 사용하기 위해 변수를 사용해 이름을 붙임
+             document.body.addEventListener('keydown', (event)=> { // 키보드 눌릴 때 실행
+                 switch (event.keyCode) {
+                     case left:
+                         x-=1;
+                         break;
+                     case up:
+                         y -=1;
+                         break;
+                     case right:
+                         x += 1;
+                         break;
+                     case down:
+                         y +=1;
+                         break;
+                 }
+                 print()
+             });
+             // 별 색깔, 크기를 변경하는 기능
+             const rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+             const sizes = [10 ,20, 30, 40, 50]
+             let idx = 0;
+             setInterval(function () {
+                 star.style.color = rainbow[idx++%rainbow.length]
+                 star.style.size = sizes[idx++%sizes.length]
+             }, 500)
+         });
+    </script>
+</head>
+<body>
+    <h1>★</h1>
+</body>
+</html>
