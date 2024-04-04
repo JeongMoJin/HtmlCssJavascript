@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 기본 이벤트 막기
+        document.addEventListener('DOMContentLoaded', ()=>{
+            const imgs = document.querySelectorAll('img')
+
+            imgs.forEach((img) => {
+                img.addEventListener('contextmenu', (event)=> {
+                   event.preventDefault(); // 컨텍스트 메뉴를 출력하는 기본 이벤트 제거
+                });
+            });
+        })
+    </script>
+</head>
+<body>
+    <img src="http://placebear.com/300/300" alt="">
+</body>
+</html>

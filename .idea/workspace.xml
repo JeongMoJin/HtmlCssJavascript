@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/01_이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/02_이벤트2개연동.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/03_키보드이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/04_키보드버튼이벤트.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/05_별 프로그램.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/06_form태그.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240403/07_form태그2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/01_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/02_select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/03_multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/04_checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/05_radiobutton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/06_기본이벤트막기.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/07_preventDefault.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/08_참가신청.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/08_참가신청2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/css/name_list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +66,7 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240402&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240404&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,11 +78,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240404" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240402" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240329" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240327" />
-      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
@@ -144,7 +147,9 @@
       <workItem from="1711820578756" duration="32000" />
       <workItem from="1712016323020" duration="24306000" />
       <workItem from="1712102416929" duration="7157000" />
-      <workItem from="1712110099772" duration="5431000" />
+      <workItem from="1712110099772" duration="6499000" />
+      <workItem from="1712189037839" duration="8405000" />
+      <workItem from="1712198167031" duration="5089000" />
     </task>
     <servers />
   </component>
