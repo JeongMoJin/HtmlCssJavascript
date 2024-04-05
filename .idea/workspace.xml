@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec43ce3e-e736-4f33-beb0-2cc5b153fcbb" name="Changes" comment="2024-03-22_2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/01_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/02_select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/03_multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/04_checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/05_radiobutton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/06_기본이벤트막기.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/07_preventDefault.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/08_참가신청.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/08_참가신청2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/20240404/css/name_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/01_참가신청3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/02_주문 프로그램.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/03_회원가입.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/css/name_list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/20240405/css/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,55 +40,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.02_이벤트핸들러.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.03_practice.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.03_연습문제.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.05.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.05_이벤트핸들러.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.06.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.07_js.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.08_DOMContentLoaded.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.08_table.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.11_html+JS.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.11_템플릿 문자열.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.15_timer2.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240404&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.01_참가신청3.html.executor": "Run",
+    "JavaScript Debug.02_이벤트핸들러.html.executor": "Run",
+    "JavaScript Debug.03_practice.html.executor": "Run",
+    "JavaScript Debug.03_연습문제.html.executor": "Run",
+    "JavaScript Debug.05.html.executor": "Run",
+    "JavaScript Debug.05_이벤트핸들러.html.executor": "Run",
+    "JavaScript Debug.06.html.executor": "Run",
+    "JavaScript Debug.07_js.html.executor": "Run",
+    "JavaScript Debug.08_DOMContentLoaded.html.executor": "Run",
+    "JavaScript Debug.08_table.html.executor": "Run",
+    "JavaScript Debug.11_html+JS.html.executor": "Run",
+    "JavaScript Debug.11_템플릿 문자열.html.executor": "Run",
+    "JavaScript Debug.15_timer2.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "C:/Users/Jeongmo7/Documents/GitHub/HtmlCssJavascript/JavaScript/20240405",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240405" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240404" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240402" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240329" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
-      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240327" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240405" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript\20240328" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\JavaScript" />
       <recent name="C:\Users\Jeongmo7\Documents\GitHub\HtmlCssJavascript\HTML\20240325" />
       <recent name="C:\Users\Jeongmo7\WebstormProjects\KoreaIT\HTML\20230318" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.11_html+JS.html">
-    <configuration name="02_이벤트핸들러.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240402/02_이벤트핸들러.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.01_참가신청3.html">
+    <configuration name="01_참가신청3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240405/01_참가신청3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03_practice.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HtmlCssJavascript/JavaScript/20240402/03_practice.html" useBuiltInWebServerPort="true">
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.01_참가신청3.html" />
         <item itemvalue="JavaScript Debug.11_html+JS.html" />
         <item itemvalue="JavaScript Debug.08_DOMContentLoaded.html" />
         <item itemvalue="JavaScript Debug.05_이벤트핸들러.html" />
         <item itemvalue="JavaScript Debug.03_practice.html" />
-        <item itemvalue="JavaScript Debug.02_이벤트핸들러.html" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +148,7 @@
       <workItem from="1712110099772" duration="6499000" />
       <workItem from="1712189037839" duration="8405000" />
       <workItem from="1712198167031" duration="5089000" />
+      <workItem from="1712275352949" duration="13744000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/name_list.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.querySelector('button')
+            const userName = document.querySelector('#username')
+            const nameList = document.querySelector('#nameList')
+
+            btn.addEventListener('click', function (event){
+                // 기본 이벤트 (submit) 막기
+                event.preventDefault(); // submit 방지
+
+                // 1. 새로운 요소를 만들고, input 태그에 있는 문자열을 추가
+                // createElement() : 새로운 요소를 만듬
+                const item = document.createElement('p'); // 새 p 요소 만들기
+                item.textContent = userName.value;
+                const del = document.createElement('span')
+                del.textContent = "X"
+                del.setAttribute('class', 'del')
+
+                // 2. nameList에 새로 만든 요소 추가하기
+                // nameList.appendChild(item); // p 요소를 element
+                item.appendChild(del)
+                nameList.insertBefore(item, nameList.childNodes[0]); // p요소를 #nameList 맨 앞에 추가하기
+
+                // 새로 생성된 요소에 이벤트를 추가할 경우에는 생성될 때 마다 이벤트를 등록해야 함
+                del.addEventListener('click', function(event) {
+                    if (confirm('삭제하시겠습니까?')) {
+                        event.currentTarget.parentNode.parentNode.removeChild(event.currentTarget.parentNode);
+                    }
+                })
+
+
+                // 3. input태그에 문자열 제거하기
+                userName.value = ''; // 텍스트 필드 지우기
+            })
+
+
+
+        })
+    </script>
+</head>
+<body>
+<div id="container">
+    <h1>참가 신청</h1>
+    <form action="">
+        <input type="text" id="username" placeholder="이름" required>
+        <button id="upLoad">신청</button>
+    </form>
+    <hr>
+    <div id="nameList"></div>
+</div>
+</body>
+</html>
