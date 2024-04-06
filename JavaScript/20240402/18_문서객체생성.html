@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <script>
+        // createElement() 메소드로 h1 태그를 생성하고, appendChild()를 사용하여 객체를 추가
+        document.addEventListener('DOMContentLoaded', () => {
+            // 문서 객체 생성하기
+            const header = document.createElement('h1');
+
+            // 생성한 태그 조작하기
+            header.textContent = '문서 객체 동적으로 생성하기'
+            header.setAttribute('data-custom', '사용자 정의 속성')
+            header.style.color = 'white'
+            header.style.backgroundColor='skyblue'
+            console.log(header)
+
+            document.body.appendChild(header)
+        })
+    </script>
+<body>
+
+</body>
+</html>

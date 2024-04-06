@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.querySelector('input');
+        const p = document.querySelector('p')
+
+        const isNumber = (value) => { // 휴대폰 번호 검사하는 함수
+            // 숫자 3자리 '-' 숫자 4자리 '-' 숫자 4자리
+            console.log(!isNaN(value.replaceAll('-','')))
+            console.log(value.split('-')[0] === '010')
+            // 숫자 3자리 '-' && 숫자 4자리 '-' && 숫자 4자리 '-' && 숫자를 입력했는지 && 010으로 시작하는지
+            return (value.split('-')[0].length == 3) && (value.split('-')[1].length == 4) && (value.split('-')[2].length == 4) && !isNaN(value.replaceAll('-','')) && value.split('-')[0]==='010';
+        };
+
+        input.addEventListener('keyup', function (event) {
+            const value = event.currentTarget.value;
+            console.log(value)
+
+            if (isNumber(value)) {
+                p.style.color = 'green'
+                p.textContent = `휴대폰 번호로 유효합니다. : ${value}`
+            }
+            else {
+                p.style.color = 'red'
+                p.textContent = `휴대폰 번호로 유효하지 않습니다. : ${value}`
+            }
+        })
+    })
+</script>
+<body>
+    <input type="text">
+    <p></p>
+</body>
+</html>

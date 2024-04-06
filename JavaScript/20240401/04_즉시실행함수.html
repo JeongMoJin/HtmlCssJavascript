@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 1. 재호출이 안되는 형태
+        (function () {
+            life();
+        })();
+        function life() {
+            console.log('즉시 실행 함수1'); // 즉시 실행 취소
+        }
+        // 1) 익명함수처럼 보이니까 즉석 실행 함수를 변수에 저장한다면?
+        let instant = (function () {
+            console.log('즉시 실행 함수2') // 즉시 실행 함수 2
+        })();
+
+        console.log(typeof instant); // undefined. 변수에 할당되지는 않고 실행만 됨
+        instant(); // instant is not a function
+
+        // 2) 선언적 함수처럼 이름을 지정하면 재실행이 되지 않을까?
+        (function instant3rd () {
+            console.log('즉시 실행 함수3');
+        })();
+
+        // 즉시 실행은 되지만 함수명으로 함수 호출은 안됨
+        // instant3rd(); // uncaught ReferenceError : instant3rd is not defined
+
+        // 2. 재실행이 가능한 경우
+        let instant4th;
+        (instant4th = function () {
+            console.log('즉시 실행 함수4');
+        })();
+        console.log(typeof instant4th); // function
+        instant4th();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

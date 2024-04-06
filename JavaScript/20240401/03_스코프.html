@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        console.log(`파이 값은 ${pi}입니다.`) // 파이 값은 3.14입니다.
+
+        {
+            let pi = 3.141592; // 블록에서 선언한 변수는 블록 안에서만 사용 가능
+            console.log(`파이 값은 ${pi}입니다.`) // 파이 값은 3.141592입니다.
+            // 블록에서 pi가 선언되지 않았다면 전역을 들고옴
+        }
+
+        console.log(`파이 값은 ${pi}입니다.`) // 파이 값은 3.14입니다.
+
+        // 함수 블록을 사용한 스코프 생성
+        function sample() {
+            let pi = 314192 // 블록에서 선언한 변수는 블록안에서만 사용 가능
+            console.log(`파이 값은 ${pi} 입니다.`)
+        }
+        sample(); // 파이 값은 3.154192
+    </script>
+</head>
+<body>
+
+</body>
+</html>

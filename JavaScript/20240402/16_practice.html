@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const redBtn = document.querySelector('#apple2')
+            const orangeBtn = document.querySelector('#banana2')
+            const yellowBtn = document.querySelector('#orange2')
+            const list = document.querySelector('ul')
+
+            redBtn.addEventListener('click', () => {
+                list.style.color = 'red'
+            })
+            orangeBtn.addEventListener('click', () => {
+                list.style.color = 'orange'
+            })
+            yellowBtn.addEventListener('click', () => {
+                list.style.color = 'yellow'
+            })
+        })
+    </script>
+<body>
+    <ul>
+        <li id="apple">Apple</li>
+        <li id="banana">Banana</li>
+        <li id="orange">Orange</li>
+    </ul>
+    <div>
+        <button id="apple2">red</button>
+        <button id="banana2">orange</button>
+        <button id="orange2">yellow</button>
+    </div>
+
+</body>
+</html>

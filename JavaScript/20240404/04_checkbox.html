@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const h1 = document.querySelector('h1')
+            const checkbox = document.querySelector('input')
+            let count = 0;
+
+            checkbox.addEventListener('change', (event)=> {
+                console.log(event.currentTarget.checked);
+                if (event.currentTarget.checked) { // 체크 상태
+                    timeUp = setInterval(() => {
+                        h1.textContent = `${count}초`
+                        ++count;
+                    }, 1000)
+                } else { // 체크 해제 상태
+                    clearInterval(timeUp)
+                    h1.textContent = `${count}초`
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <input type="checkbox">
+    <span>타이머 활성화</span>
+    <h1></h1>
+</body>
+</html>
