@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/get_form.css">
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const major = document.getElementById("major")
+        const subjects = document.querySelectorAll('input[type=radio]')
+        const mailings = document.querySelectorAll('input[type=checkbox]')
+
+        major.addEventListener('change', (event) => {
+            // 1. 이벤트 사용
+            const majors = event.currentTarget.options // option을 배열로 변환
+            const index = event.currentTarget.options.selectedIndex; // 선택한 index 추출
+            let selectText = majors[index].textContent
+
+            alert(`${selectText}를 선택했습니다.`)
+
+            // 2. event 사용안됨
+            // 사용자가 선택한 항목의 인덱스는 major.selectedIndex를 통해 알아냄
+            selectText = major.options[major.selectedIndex].textContent;
+        })
+
+        subjects.forEach((subject) => {
+            subject.addEventListener('change', (event)=> {
+                const current = event.currentTarget;
+                if(current.checked) {
+                    alert(`${current.parentNode.textContent}를 선택했습니다.`);
+
+                    // 값(value)을 들고 오는 경우
+                    // alert(`${current.value}를 선택했습니다.`)
+                }
+            })
+        })
+
+        // 3. checkbox에 change 이벤트가 발생했을 때 실행
+        mailings.forEach((mailing) => {
+            mailing.addEventListener('change', (event)=> {
+                const current = event.currentTarget;
+                if(current.checked) {
+                    alert(`${current.parentNode.textContent}를 선택했습니다.`)
+                }
+                else {
+                    alert(`${current.parentNode.textContent}를 선택해제 했습니다.`)
+                }
+            })
+        })
+    })
+</script>
+<body>
+<div id="container">
+    <h1>수강신청</h1>
+    <form name="testForm">
+        <fieldset>
+            <legend>신청인</legend>
+            <ul>
+                <li>
+                    <label class="reg" for="userName">이름</label>
+                    <input type="text" id="userName" name="userName" maxlength="50">
+                </li>
+                <li>
+                    <label class="reg" for="major">학과</label>
+                    <select name="major" id="major">
+                        <option>---- 학과선택 ----</option>
+                        <option value="architect">건축공학과</option>
+                        <option value="mechanic">기계공학과</option>
+                        <option value="industrial">산업공학과</option>
+                        <option value="elect">전기전자공학과</option>
+                        <option value="computer">컴퓨터공학과</option>
+                        <option value="chemical">화학공학과</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요.</p>
+            <label><input type="radio" name="subjcet" value="speaking">회화</label>
+            <label><input type="radio" name="subjcet" value="grammer">문법</label>
+            <label><input type="radio" name="subjcet" value="writing">작문</label>
+        </fieldset>
+        <fieldset>
+            <legend>메일링</legend>
+            <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요</p>
+            <label><input type="checkbox" name="mailing1" value="news">해외 단신</label>
+            <label><input type="checkbox" name="mailing2" value="dialog">5분 회화</label>
+            <label><input type="checkbox" name="mailing3" value="pops">모닝팜스</label>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
