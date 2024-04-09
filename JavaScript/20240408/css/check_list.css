@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background: #ffffff;
+}
 
 h2 {
     color: #004607;
+    text-shadow: 5px 5px 3px #a4a4a4;
 }
 
 section.list {
@@ -15,9 +19,10 @@ section.list {
     background: #a1f19a;
     border-radius: 10px;
     height: 500px;
-    border: #185723 1px dashed;
+    border: #185723 1px solid;
     box-shadow: 5px 5px 3px #a4a4a4
 }
+
 section.add {
     width: 500px;
     margin: 10px auto;
@@ -25,7 +30,18 @@ section.add {
     margin-top: 40px;
     background: #6fe36f;
     border-radius: 10px;
-    border: #185723 1px dashed;
+    border: #185723 1px solid;
+    box-shadow: 5px 5px 3px #9d9a9a
+}
+
+section.edit {
+    width: 500px;
+    margin: 10px auto;
+    padding: 15px;
+    margin-top: 40px;
+    background: #6fe36f;
+    border-radius: 10px;
+    border: #185723 1px solid;
     box-shadow: 5px 5px 3px #9d9a9a
 }
 
@@ -42,14 +58,19 @@ h2 {
     font-family: Pretendard;
     font-size: 15px;
     color: #185723;
+    text-shadow: 5px 5px 3px #a4a4a4;
+
 }
 
 .list ul li ul {
     text-align: center;
     border: #185723 solid 1px;
+    box-shadow: 5px 5px 3px #a4a4a4
+
+
 }
 
-.addTool{
+.addTool {
     text-align: center;
 }
 
@@ -61,6 +82,9 @@ input[value='x'] {
     color: #000000;
     border-radius: 100px;
     font-family: Pretendard;
+    box-shadow: 5px 2px 3px #a4a4a4
+
+
 }
 
 input[value='등록'] {
@@ -72,9 +96,37 @@ input[value='등록'] {
     border-radius: 5px;
     font-family: Pretendard;
     font-weight: bolder;
+    text-shadow: 5px 5px 3px #a4a4a4;
+    box-shadow: 5px 5px 3px #a4a4a4;
 }
 
-.list ul{
+input[value='수정 '] {
+    background: #00a6ff;
+    border: solid 1px black;
+    width: 70px;
+    height: 25px;
+    color: #000000;
+    border-radius: 5px;
+    font-family: Pretendard;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px #a4a4a4;
+    box-shadow: 5px 5px 3px #a4a4a4;
+}
+input[value='수정'] {
+     background: #00a6ff;
+     border: solid 1px #ffffff;
+     width: 37px;
+     height: 20px;
+     color: #000000;
+     border-radius: 5px;
+     font-family: Pretendard;
+     font-weight: lighter;
+     text-shadow: 5px 5px 3px #a4a4a4;
+     box-shadow: 5px 2px 3px #a4a4a4;
+    margin-left: 10px;
+ }
+
+.list ul {
     background: #ebfde8;
     height: 25px;
     list-style: none;
@@ -90,6 +142,9 @@ input[type='text'] {
     font-weight: bolder;
     font-family: Pretendard;
     text-align: center;
+    text-shadow: 5px 5px 3px #a4a4a4;
+    box-shadow: 5px 5px 3px #a4a4a4
+
 }
 
 input[type='date'] {
@@ -100,4 +155,8 @@ input[type='date'] {
     font-weight: bolder;
     font-family: Pretendard;
     text-align: center;
+    text-shadow: 5px 5px 3px #a4a4a4;
+    box-shadow: 5px 5px 3px #a4a4a4
+
+
 }
