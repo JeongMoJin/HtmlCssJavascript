@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const obj = {
+                name: "Lee",
+                age: 20,
+                alive: true,
+                hobby: ['traveling', 'tennis']
+            }
+
+            // 객체를 JSON 포맷의 문자열로 변환
+            console.log(typeof obj)
+
+            const json = JSON.stringify(obj)
+            console.log(typeof json, json) // string
+
+            // JSON 포맷의 문자열을 객체로 변환
+            const parsed = JSON.parse(json)
+            console.log(typeof parsed, parsed) // object
+
+            const todos = [
+                { id : 1, content: 'HTML', completed: false},
+                { id : 2, content: 'CSS', completed: true},
+                { id : 3, content: 'JavaScript', completed: false}
+            ];
+
+            console.log(typeof todos)
+
+            const jsonTodos = JSON.stringify(todos)
+            console.log(typeof jsonTodoso, jsonTodos)
+
+            const stringTodos = JSON.parse(jsonTodos)
+            console.log(typeof stringTodos, stringTodos)
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>

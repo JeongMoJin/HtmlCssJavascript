@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const btns = document.querySelectorAll('[type=button]');
+            const alramArea = document.querySelectorAll('p')[0];
+            const temperatureArea = document.querySelectorAll('p')[1];
+            const locationObj = {
+                '중구' : [89,90],
+                '동구' : [90,91],
+
+            }
+
+            btns.forEach(function (item) {
+                item.addEventListener('click', function (){
+                    const guName = item.getAttribute('value')
+                    let url = getUrl(...locationObj[guName]);
+                    printTemperature(url, guName)
+                });
+            });
+            const getUrl = function (nx, ny) { // 좌표를 받아서 url을 생성해서 리턴
+                // url 인코딩된 키 사용
+                const serviceKey = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg==';
+
+                // 현재 시간 구함
+                const today = new Date();
+
+                const baseDate = `${today.getFullYear()}${(`0` + (today.getMonth()+1)).slice(-2)}${(`0` + today.getDate()).slice(-2)}`;
+                // 현재 분이 30분 이전이면 이전 시간(정시)을 설정
+                let baseTime = today.getMinutes() <= 30 ? `${today.getHours() - 1}00` : `${today.getHours()}00`;
+                baseTime = (baseTime.length === 3) ? `0${baseTime}` : baseTime; // 10시 전이면 0을 하나 붙임
+
+                const parameter = `?serviceKey=${serviceKey}&base_date=${baseDate}&base_time=${baseTime}&nx=${nx}&ny=${ny}&dataType=JSON`
+                return 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst' + parameter;
+            }
+            const printTemperature = function (url, name) {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', url);
+                xhr.onreadystatechange
+            }
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

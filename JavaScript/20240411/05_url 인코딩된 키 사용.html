@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // url 인코딩된 키 사용
+            const serviceKey = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg==';
+
+            // 위치 값
+            // 대구광역시 중구 삼덕동 89 90
+            const nx = 89
+            const ny = 90
+
+            // 현재 시간 구함
+            const today = new Date();
+
+            const baseDate = `${today.getFullYear()}${(`0` + (today.getMonth()+1)).slice(-2)}${(`0` + today.getDate()).slice(-2)}`;
+            // 현재 분이 30분 이전이면 이전 시간(정시)을 설정
+            let baseTime = today.getMinutes() <= 30 ? `${today.getHours() - 1}00` : `${today.getHours()}00`;
+            baseTime = (baseTime.length === 3) ? `0${baseTime}` : baseTime; // 10시 전이면 0을 하나 붙임
+
+            const parameter = `?serviceKey=${serviceKey}&base_date=${baseDate}&base_time=${baseTime}&nx=${nx}&ny=${ny}&dataType=JSON`
+            const url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst' + parameter;
+            console.log(url)
+
+            // ajax를 이용해 데이터 가져오기
+            // XMLHttpRequest 객체 생성
+            const xhr =new XMLHttpRequest();
+
+            // HTTP 요청 초기화
+            xhr.open('GET', url)
+            console.log(xhr.response)
+            // console.log(xhr)
+            // const jsonData = JSON.parse(xhr.response)
+
+            // 이벤트 등록. XMLHttpRequest 객체의 readyState 프로퍼티 값이 변할 때 마다 자동으로 호출
+            xhr.onreadystatechange = () => {
+                // readyState 프로퍼티의 값이 DONE : 요청한 데이터의 처리가 완료되어 응답할 준비가 완료됨
+                if(xhr.readyState != XMLHttpRequest.DONE) return;
+
+                if(xhr.status === 200) { // 서버(url)에 문서가 존재함
+                    console.log(xhr.response)
+                    jsonData = JSON.parse(xhr.response)
+                    console.log(jsonData)
+                }else {
+                    console.error('Error', xhr.status, xhr.statusText)
+                }
+            }
+            xhr.send(); // url에 요청을 보냄
+
+            // weatherItems = jsonData['response']['body']['items']['item']
+            // console.log(weatherItems)
+
+            // HTML에 JSON 데이터 출력
+            const btn = document.querySelector(".on")
+
+            btn.addEventListener('click', function() {
+                // 문서 객체 생성
+                const json = document.createElement('div');
+
+                // 생성한 태그 조작하기
+                json.innerHTML = `<p>[발표 날짜: ${weather_items[0]["baseDate"]}]</p>`
+
+                document.body.appendChild(json)
+            })
+         });
+    </script>
+</head>
+<body>
+<button type="button" class="on">확인</button>
+</body>
+</html>
