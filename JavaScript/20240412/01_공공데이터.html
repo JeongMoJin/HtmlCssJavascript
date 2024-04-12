@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+        border: 2px solid black;
+        empty-cells: hide;
+        width: 1000px;
+        table-layout: fixed;
+        word-break: break-all;
+    }
+    td {
+        width: 200px;
+        height: 40px; /* 셀의 높이 */
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
+    }
+        div {
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            width: 1000px;
+        }
+        div input {
+            width: 70px;
+            height: 40px;
+            background-color: #3a4bb9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+        div input:hover {
+            background-color: white;
+            color: #3a4bb9;
+        }
+    </style>
+    <script>
+        // 이벤트 등록
+         document.addEventListener('DOMContentLoaded', function (){
+             const btns = document.querySelectorAll('input[type=button]')
+             btns.forEach((item) => {
+                 item.addEventListener('click', function () {
+                     console.log(item.value)
+                     console.log(getUrl())
+                     printBusTable(getUrl(), item.value)
+                 })
+             })
+         });
+             const sortStr = function (string1, string2) {
+                 // 기본 데이터는 문자열. 2개의 문자열을 결합하고, ',' 기준으로 배열로 변환
+                 let tempList = (string1+', '+string2).split(",")
+                 tempList = [...new Set(tempList)] //중복 제거
+                 temlList = tempList.map((item) => item.trim()) // 공백 제거
+                 tempList.sort // 정렬
+
+                 // 현재 시간 구해서 이전 시간이면 연하게 출력.
+                 const today = new Date();
+                 const todayTime = `${today.getHours()}${today.getMinutes()}`;
+                 // console.log(todayTime)
+                 tempList = tempList.map((item) => {
+                     console.log(Number(item))
+                     return Number(item) < Number(todayTime) ? `<span style="color: #cccccc">${item}</span>` : item;
+                 });
+
+                 return tempList.join(", ") ; // 배열을 문자열로 변환
+             }
+             const getUrl = function ()  {
+                 const serviceKey = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg=='
+                 const url = 'http://apis.data.go.kr/B551177/BusInformation/getBusInfo';
+                 return `${url}?serviceKey=${serviceKey}&area=6&numOfRows=50&pageNo=1&type=json`
+             }
+
+             const printBusTable = function (url, name) {
+                 const xhr = new XMLHttpRequest();
+                 xhr.open('GET', url);
+                 xhr.onreadystatechange = () => {
+                     if (xhr.readyState === XMLHttpRequest.DONE) return;
+
+                     if (xhr.status === 200) {
+                         const jsonObject = JSON.parse(xhr.response)
+                         const items = jsonObject.response.body.items;
+                         const tableBody = document.querySelector('tbody');
+
+                         while (tableBody.firstChild) {
+                             tableBody.removeChild(tableBody.firstChild);
+                         }
+
+                         for (item of items) {
+                             // console.log(item)
+                             if (item['routeinfo'].indexOf(name) >= 0) {
+                                 const trTag = document.createElement('tr')
+                                 trTag.innerHTML = `
+                                 <td>${item['busnumber']}</td>
+                                 <td>${item['busclass']}</td>
+                                 <td>${item['adultfare']}</td>
+                                 <td>${sortStr(item['t1wdayt'],item['t2wdayt'])}</td>
+                                 <td>${sortStr(item['t1wt'],item['t2wt'])}</td>
+                                 `;
+                                 tableBody.append(trTag)
+                             }
+                         }
+                     } else {
+                         console.error('Error', xhr.status, xhr.statusText)
+                     }
+                 }
+                 xhr.send();
+             }
+    </script>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>버스번호</th>
+            <th>버스등급</th>
+            <th>성인요금</th>
+            <th>평일시간표</th>
+            <th>주말시간표</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>
+        <input type="button" value="대구">
+        <input type="button" value="구미">
+        <input type="button" value="경산">
+        <input type="button" value="포항">
+    </div>
+</body>
+</html>

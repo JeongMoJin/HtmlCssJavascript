@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border: 2px solid black;
+            empty-cells: hide;
+            width: 1000px;
+            table-layout: fixed;
+            word-break: break-all;
+            text-align: center;
+        }
+        td {
+            width: 200px;
+            height: 40px; /* 셀의 높이 */
+            padding: 15px;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+        div {
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            width: 1000px;
+        }
+        div input {
+            width: 70px;
+            height: 40px;
+            background-color: #3a4bb9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+        div input:hover {
+            background-color: white;
+            color: #3a4bb9;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const btns = document.querySelectorAll('input[type=button]')
+            btns.forEach((item) => {
+                item.addEventListener('click', function () {
+                    console.log(getUrl())
+                    printAirPort(getUrl(), item.value)
+                })
+            })
+        })
+        const getUrl = function ()  {
+            const serviceKey = '1wMGYoH1onj8LIYDjyTfyuVPZLQc6F31PLdZjBj6jxjEi5P5suF4F9tGV2d38RvWOUj0tpiv6/OmN0NsBd93gg=='
+            const url = 'http://apis.data.go.kr/B551177/StatusOfPassengerFlightsDSOdp/getPassengerArrivalsDSOdp';
+            return `${url}?serviceKey=${serviceKey}&type=json`
+        }
+        const printAirPort = function (url,name) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', url);
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === XMLHttpRequest.DONE) return;
+
+                if (xhr.status === 200) {
+                    const jsonObject = JSON.parse(xhr.response)
+                    const items = jsonObject.response.body.items;
+                    const tableBody = document.querySelector('tbody');
+
+                    while (tableBody.firstChild) {
+                        tableBody.removeChild(tableBody.firstChild);
+                    }
+
+                    for (item of items) {
+                        if (item["airport"].indexOf(name) >= 0) {
+                            const trTag = document.createElement('tr')
+                            trTag.innerHTML = `
+                            <td>${item['airline']}</td>
+                            <td>${item['flightId']}</td>
+                            <td>${item['scheduleDateTime']}</td>
+                            <td>${item['airport']}</td>
+                            `;
+                            document.body.append(trTag)
+                        }
+                    }
+                } else {
+                    console.log('Error', xhr.status, xhr.statusText)
+                }
+            }
+            xhr.send()
+        }
+    </script>
+</head>
+<body>
+<div>
+    <input type="button" value="나리타">
+    <input type="button" value="삿포로">
+    <input type="button" value="오사카">
+    <input type="button" value="후쿠오카">
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>항공사</th>
+        <th>편명</th>
+        <th>예정시간</th>
+        <th>도착지공항</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+</body>
+</html>
