@@ -4,7 +4,7 @@
 }
 
 a {
-    text-decoration: none; /* 링크속성 밑줄 없앰 */
+    text-decoration: none; /* 링크속성 밑줄 없앰 */ /* a태그 css */
 }
 
 li {
